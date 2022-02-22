@@ -1,0 +1,179 @@
+INFO: 2022/02/23 01:49:02 main.go:26: successfully initialized :)
+INFO: 2022/02/23 01:49:04 schema.go:107: --------------validate
+INFO: 2022/02/23 01:49:04 schema.go:110: attempting to validate JSON against schema. ID 3
+INFO: 2022/02/23 01:49:04 schema.go:114: requested schema from Redis
+INFO: 2022/02/23 01:49:04 schema.go:130: retrieved schema from Redis successfully, compiling it
+INFO: 2022/02/23 01:49:04 schema.go:154: validating request JSON against schema
+INFO: 2022/02/23 01:49:04 schema.go:194: found null field /timeout, removing from object
+INFO: 2022/02/23 01:49:04 schema.go:164: found 2 validation errors agains the schema, sending response
+INFO: 2022/02/23 01:49:05 schema.go:107: --------------validate
+INFO: 2022/02/23 01:49:05 schema.go:110: attempting to validate JSON against schema. ID 3
+INFO: 2022/02/23 01:49:05 schema.go:114: requested schema from Redis
+INFO: 2022/02/23 01:49:05 schema.go:130: retrieved schema from Redis successfully, compiling it
+INFO: 2022/02/23 01:49:05 schema.go:154: validating request JSON against schema
+INFO: 2022/02/23 01:49:05 schema.go:194: found null field /timeout, removing from object
+INFO: 2022/02/23 01:49:05 schema.go:164: found 2 validation errors agains the schema, sending response
+INFO: 2022/02/23 01:49:05 schema.go:107: --------------validate
+INFO: 2022/02/23 01:49:05 schema.go:110: attempting to validate JSON against schema. ID 3
+INFO: 2022/02/23 01:49:05 schema.go:114: requested schema from Redis
+INFO: 2022/02/23 01:49:05 schema.go:130: retrieved schema from Redis successfully, compiling it
+INFO: 2022/02/23 01:49:05 schema.go:154: validating request JSON against schema
+INFO: 2022/02/23 01:49:05 schema.go:194: found null field /timeout, removing from object
+INFO: 2022/02/23 01:49:05 schema.go:164: found 2 validation errors agains the schema, sending response
+INFO: 2022/02/23 01:49:06 schema.go:107: --------------validate
+INFO: 2022/02/23 01:49:06 schema.go:110: attempting to validate JSON against schema. ID 3
+INFO: 2022/02/23 01:49:06 schema.go:114: requested schema from Redis
+INFO: 2022/02/23 01:49:06 schema.go:130: retrieved schema from Redis successfully, compiling it
+INFO: 2022/02/23 01:49:06 schema.go:154: validating request JSON against schema
+INFO: 2022/02/23 01:49:06 schema.go:194: found null field /timeout, removing from object
+INFO: 2022/02/23 01:49:06 schema.go:164: found 2 validation errors agains the schema, sending response
+INFO: 2022/02/23 01:49:09 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:49:09 schema.go:79: attempting to get schema from Redis. ID: 3
+INFO: 2022/02/23 01:49:09 schema.go:84: requested schema from Redis
+INFO: 2022/02/23 01:49:09 schema.go:101: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:49:10 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:49:10 schema.go:79: attempting to get schema from Redis. ID: 3
+INFO: 2022/02/23 01:49:10 schema.go:84: requested schema from Redis
+INFO: 2022/02/23 01:49:10 schema.go:101: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:49:11 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:49:11 schema.go:79: attempting to get schema from Redis. ID: 3
+INFO: 2022/02/23 01:49:11 schema.go:84: requested schema from Redis
+INFO: 2022/02/23 01:49:11 schema.go:101: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:49:12 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:49:12 schema.go:79: attempting to get schema from Redis. ID: 3
+INFO: 2022/02/23 01:49:12 schema.go:84: requested schema from Redis
+INFO: 2022/02/23 01:49:12 schema.go:101: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:49:25 schema.go:14: --------------add schema
+INFO: 2022/02/23 01:49:25 schema.go:16: attempting to add new schema. ID test1
+INFO: 2022/02/23 01:49:25 schema.go:64: added new schema to Redis. Key: test1. Responding with success status
+INFO: 2022/02/23 01:49:28 schema.go:14: --------------add schema
+INFO: 2022/02/23 01:49:28 schema.go:16: attempting to add new schema. ID test1
+INFO: 2022/02/23 01:49:28 schema.go:48: found already existing schema with ID test1
+INFO: 2022/02/23 01:49:29 schema.go:14: --------------add schema
+INFO: 2022/02/23 01:49:29 schema.go:16: attempting to add new schema. ID test1
+INFO: 2022/02/23 01:49:29 schema.go:48: found already existing schema with ID test1
+INFO: 2022/02/23 01:49:33 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:49:33 schema.go:79: attempting to get schema from Redis. ID: test11
+INFO: 2022/02/23 01:49:33 schema.go:84: requested schema from Redis
+ERROR: 2022/02/23 01:49:33 schema.go:88: error while getting schema from Redis. error: redis: nil
+INFO: 2022/02/23 01:50:35 main.go:26: successfully initialized :)
+INFO: 2022/02/23 01:50:37 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:50:37 schema.go:80: attempting to get schema from Redis. ID: test11
+INFO: 2022/02/23 01:50:37 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:50:37 schema.go:96: schema has not been found.
+INFO: 2022/02/23 01:50:45 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:50:45 schema.go:80: attempting to get schema from Redis. ID: test11
+INFO: 2022/02/23 01:50:45 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:50:45 schema.go:96: schema has not been found.
+INFO: 2022/02/23 01:50:46 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:50:46 schema.go:80: attempting to get schema from Redis. ID: test11
+INFO: 2022/02/23 01:50:46 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:50:46 schema.go:96: schema has not been found.
+INFO: 2022/02/23 01:51:07 schema.go:108: --------------validate
+INFO: 2022/02/23 01:51:07 schema.go:111: attempting to validate JSON against schema. ID 3
+INFO: 2022/02/23 01:51:07 schema.go:115: requested schema from Redis
+INFO: 2022/02/23 01:51:07 schema.go:131: retrieved schema from Redis successfully, compiling it
+INFO: 2022/02/23 01:51:07 schema.go:155: validating request JSON against schema
+INFO: 2022/02/23 01:51:07 schema.go:176: validation successfull, sending response
+INFO: 2022/02/23 01:51:07 schema.go:108: --------------validate
+INFO: 2022/02/23 01:51:07 schema.go:111: attempting to validate JSON against schema. ID 3
+INFO: 2022/02/23 01:51:07 schema.go:115: requested schema from Redis
+INFO: 2022/02/23 01:51:07 schema.go:131: retrieved schema from Redis successfully, compiling it
+INFO: 2022/02/23 01:51:07 schema.go:155: validating request JSON against schema
+INFO: 2022/02/23 01:51:07 schema.go:176: validation successfull, sending response
+INFO: 2022/02/23 01:51:08 schema.go:108: --------------validate
+INFO: 2022/02/23 01:51:08 schema.go:111: attempting to validate JSON against schema. ID 3
+INFO: 2022/02/23 01:51:08 schema.go:115: requested schema from Redis
+INFO: 2022/02/23 01:51:08 schema.go:131: retrieved schema from Redis successfully, compiling it
+INFO: 2022/02/23 01:51:08 schema.go:155: validating request JSON against schema
+INFO: 2022/02/23 01:51:08 schema.go:176: validation successfull, sending response
+INFO: 2022/02/23 01:51:08 schema.go:108: --------------validate
+INFO: 2022/02/23 01:51:08 schema.go:111: attempting to validate JSON against schema. ID 3
+INFO: 2022/02/23 01:51:08 schema.go:115: requested schema from Redis
+INFO: 2022/02/23 01:51:08 schema.go:131: retrieved schema from Redis successfully, compiling it
+INFO: 2022/02/23 01:51:08 schema.go:155: validating request JSON against schema
+INFO: 2022/02/23 01:51:08 schema.go:176: validation successfull, sending response
+INFO: 2022/02/23 01:53:38 main.go:26: successfully initialized :)
+INFO: 2022/02/23 01:54:21 main.go:26: successfully initialized :)
+INFO: 2022/02/23 01:54:22 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:54:22 schema.go:80: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:54:22 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:54:47 main.go:26: successfully initialized :)
+INFO: 2022/02/23 01:54:48 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:54:48 schema.go:80: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:54:48 schema.go:85: requested schema from Redis
+ERROR: 2022/02/23 01:54:48 schema.go:89: error while getting schema from Redis. error: <nil>
+INFO: 2022/02/23 01:54:50 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:54:50 schema.go:80: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:54:50 schema.go:85: requested schema from Redis
+ERROR: 2022/02/23 01:54:50 schema.go:89: error while getting schema from Redis. error: <nil>
+INFO: 2022/02/23 01:54:50 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:54:50 schema.go:80: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:54:50 schema.go:85: requested schema from Redis
+ERROR: 2022/02/23 01:54:50 schema.go:89: error while getting schema from Redis. error: <nil>
+INFO: 2022/02/23 01:54:52 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:54:52 schema.go:80: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:54:52 schema.go:85: requested schema from Redis
+ERROR: 2022/02/23 01:54:52 schema.go:89: error while getting schema from Redis. error: <nil>
+INFO: 2022/02/23 01:55:06 main.go:26: successfully initialized :)
+INFO: 2022/02/23 01:55:10 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:55:10 schema.go:79: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:55:10 schema.go:84: requested schema from Redis
+INFO: 2022/02/23 01:55:10 schema.go:101: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:55:11 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:55:11 schema.go:79: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:55:11 schema.go:84: requested schema from Redis
+INFO: 2022/02/23 01:55:11 schema.go:101: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:55:12 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:55:12 schema.go:79: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:55:12 schema.go:84: requested schema from Redis
+INFO: 2022/02/23 01:55:12 schema.go:101: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:55:12 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:55:12 schema.go:79: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:55:12 schema.go:84: requested schema from Redis
+INFO: 2022/02/23 01:55:12 schema.go:101: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:55:13 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:55:13 schema.go:79: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:55:13 schema.go:84: requested schema from Redis
+INFO: 2022/02/23 01:55:13 schema.go:101: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:55:19 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:55:19 schema.go:79: attempting to get schema from Redis. ID: 51
+INFO: 2022/02/23 01:55:19 schema.go:84: requested schema from Redis
+INFO: 2022/02/23 01:55:19 schema.go:101: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:55:22 schema.go:76: --------------get schema
+INFO: 2022/02/23 01:55:22 schema.go:79: attempting to get schema from Redis. ID: 5122
+INFO: 2022/02/23 01:55:22 schema.go:84: requested schema from Redis
+ERROR: 2022/02/23 01:55:22 schema.go:88: error while getting schema from Redis. error: redis: nil
+INFO: 2022/02/23 01:56:09 main.go:26: successfully initialized :)
+INFO: 2022/02/23 01:56:11 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:56:11 schema.go:80: attempting to get schema from Redis. ID: 5122
+INFO: 2022/02/23 01:56:11 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:56:11 schema.go:96: schema has not been found.
+INFO: 2022/02/23 01:56:12 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:56:12 schema.go:80: attempting to get schema from Redis. ID: 5122
+INFO: 2022/02/23 01:56:12 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:56:12 schema.go:96: schema has not been found.
+INFO: 2022/02/23 01:56:12 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:56:12 schema.go:80: attempting to get schema from Redis. ID: 5122
+INFO: 2022/02/23 01:56:12 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:56:12 schema.go:96: schema has not been found.
+INFO: 2022/02/23 01:56:16 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:56:16 schema.go:80: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:56:16 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:56:16 schema.go:102: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:56:16 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:56:16 schema.go:80: attempting to get schema from Redis. ID: 1
+INFO: 2022/02/23 01:56:16 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:56:16 schema.go:102: retrieved schema from Redis successfully
+INFO: 2022/02/23 01:56:18 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:56:18 schema.go:80: attempting to get schema from Redis. ID: 141
+INFO: 2022/02/23 01:56:18 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:56:18 schema.go:96: schema has not been found.
+INFO: 2022/02/23 01:56:19 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:56:19 schema.go:80: attempting to get schema from Redis. ID: 141
+INFO: 2022/02/23 01:56:19 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:56:19 schema.go:96: schema has not been found.
+INFO: 2022/02/23 01:56:21 schema.go:77: --------------get schema
+INFO: 2022/02/23 01:56:21 schema.go:80: attempting to get schema from Redis. ID: 1413
+INFO: 2022/02/23 01:56:21 schema.go:85: requested schema from Redis
+INFO: 2022/02/23 01:56:21 schema.go:96: schema has not been found.
