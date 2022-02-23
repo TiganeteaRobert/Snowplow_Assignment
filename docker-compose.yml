@@ -1,22 +1,18 @@
 version: '3.8'
 
-services:
-
-  # Redis Service   
+services: 
   redis:
-    image: "redis" # Use a public Redis image to build the redis service    
+    image: "redis"    
     command: ["redis-server", "--bind", "redis", "--port", "6379"]
 
-  # App Service
   app:
-    # Configuration for building the docker image for the service
     build:
-      context: . # Use an image built from the specified dockerfile in the current directory.
+      context: .
       dockerfile: Dockerfile
     ports:
-      - "8080:8080" # Forward the exposed port 8080 on the container to port 8080 on the host machine
+      - "8080:8080"
     restart: unless-stopped
     depends_on: 
-      - redis # This service depends on redis. Start that first.
-    environment: # Pass environment variables to the service
-      REDIS_URL: redis
+      - redis 
+    environment: 
+      REDIS_URL: redis:6379

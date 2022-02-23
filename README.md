@@ -4,7 +4,7 @@ Snowplow is a JSON schema validator capable of storing JSON schemas, retrieving 
 
 ## Requirements
 
-```docker-compose```
+```docker, docker-compose```
 
 ## Installation
 
@@ -13,6 +13,8 @@ Simply run the following command inside the main directory
 ```bash
 docker-compose up
 ```
+
+The API will be available at ```localhost:8080```
 
 # API Endpoints
 
