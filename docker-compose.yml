@@ -2,6 +2,11 @@ version: '3.8'
 
 services:
 
+  # Redis Service   
+  redis:
+    image: "redis" # Use a public Redis image to build the redis service    
+    command: ["redis-server", "--bind", "redis", "--port", "6379"]
+
   # App Service
   app:
     # Configuration for building the docker image for the service
@@ -14,19 +19,4 @@ services:
     depends_on: 
       - redis # This service depends on redis. Start that first.
     environment: # Pass environment variables to the service
-      REDIS_URL: redis:6379    
-    networks: # Networks to join (Services on the same network can communicate with each other using their name)
-      - backend
-
-  # Redis Service   
-  redis:
-    image: "redis:alpine" # Use a public Redis image to build the redis service    
-    restart: unless-stopped
-    ports:
-      - "6379:6379"
-    networks:
-      - backend
-
-networks:
-  backend:
-    driver: bridge
+      REDIS_URL: redis
